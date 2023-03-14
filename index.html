@@ -24,10 +24,10 @@
     <!-- The "navbar-dark" class is used on Navbars with a dark background so the text can be seen -->
     <!-- The "sticky-top" class is used to set the sticky position to an element (the nav element in this case) -->
     <nav class="navbar bg-dark navbar-dark sticky-top">
-        <div class="container">
+        <div class="navbar-brand">
             <!-- The "navbar-band" class is used to make a logo or text larger to help it stand out -->
             <a href="#" class="navbar-brand">
-                <i class="fa-solid fa-bread-sliced"></i>
+                <i class="fa-solid fa-bread-slice"></i>
                 Le Pain</a>
         </div>
     </nav>
@@ -41,11 +41,11 @@
     </section>
 
     <!-- Gallery -->
-    <section id="gallery">
+    <section id="gallery" class="bg-dark p-5">
         <div class="container">
             <!-- Bootstrap Grid -->
             <div class="row">
-                <select class="mb-4 col-lg-4">
+                <section class="mb-4 col-lg-4">
                     <div class="card">
                         <img src="./Images/baguette.jpg" alt="5 golden baked baguettes" class="card-image-top">
                         <div class="card-body">
@@ -57,14 +57,14 @@
                             </a>
                         </div>
                     </div>
-                </select>
+                </section>
                 <!-- Bread 2 -->
                 <section class="mb-4 col-lg-4">
                     <div class="card">
                         <img src="./Images/challah.jpg" alt="braided challah" class="card-image-top">
                         <div class="card-body">
                             <h5 class="card-title">Challah</h5>
-                            <p class="card-text">Challah is a special bread of Ashkenazi Jewish origin, usually braided and typically eaten on ceremonial occasions such as Shabbat and major Jewish holidays other than Passover).</p>
+                            <p class="card-text">Challah is a special bread of Ashkenazi Jewish origin, usually braided and typically eaten on ceremonial occasions such as Shabbat and major Jewish holidays.</p>
                             <a href="https://en.wikipedia.org/wiki/Challah" class="btn btn-outline-info">Learn More</a>
                             <a href="" class="btn btn-sm btn-outline-danger">
                                 <i class="fa-regular fa-heart"></i>
@@ -90,7 +90,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="bg-secondary">
         <div class="container">
             <p class="lead m-0 p-4 text-center text-light">
                 Built using

@@ -27,6 +27,6 @@ body {
 
 @media (min-width: 1400px){
     .card-text{
-        height: 1px;
+        height: 70px;
     }
 }
